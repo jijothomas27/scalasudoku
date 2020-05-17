@@ -1,0 +1,63 @@
+body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+}
+      
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.container-narrow > hr {
+        margin: 30px 0;
+}
+
+.sudoku-container {
+	margin: 0 100px auto;
+}
+      
+li > a {
+	color: #000000;
+	font-size: 1.25em;
+}
+
+td {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border: thin solid #000000;
+}
+
+td:nth-child(3n+1) {
+	border-left: thick solid #000000;
+}
+
+td:nth-child(9) {
+	border-right: thick solid #000000;
+}
+
+tr:nth-child(3n+1) > td {
+	border-top: thick solid #000000;
+}
+
+tr:nth-child(9) > td {
+	border-bottom: thick solid #000000;
+}
+
+.sudoku-answer {
+	width: 20px;
+	height: 20px;
+	border-style: none;
+}
+
+.actions {
+	margin-top: 10px;
+}
+
+.result {
+	margin-bottom: 10px;
+}
+
+.motiviation {
+	margin-top: 20px;
+}
